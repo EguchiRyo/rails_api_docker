@@ -1,6 +1,6 @@
 FROM ruby:2.3.1
 
-ENV APP_ROOT /app
+ENV APP_ROOT /rails_project/app
 
 WORKDIR $APP_ROOT
 
