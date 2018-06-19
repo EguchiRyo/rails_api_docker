@@ -13,7 +13,7 @@ default: &default
   url: <%= ENV['DATABASE_URL'] %>
 development:
   <<: *default
-  database: api_db_deployment
+  database: api_db_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
